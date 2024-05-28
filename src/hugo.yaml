@@ -1,0 +1,23 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: sakura blog
+theme: ["PaperMod"]
+params:
+  defaultTheme: light
+
+  profileMode:
+    enabled: true
+    title: "sakuras blog" # optional default will be site title
+    subtitle: "This is subtitle"
+    imageUrl: "/profile_pic.png" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Matrix Homeserver
+        url: "https://matrix.sakura.pm"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/mur1chan/"
+    - name: "matrix"
+      url: "https://matrix.to/#/@mur1chan:sakura.pm"
