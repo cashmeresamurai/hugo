@@ -20,10 +20,10 @@ params:
       - name: whoogle
         url: "https://whoogle.sakura.pm"
       - name: upload
-        url: "https://upload.sakura.pm"
+        url: "https://upload.sakura.pm/upload"
   socialIcons: # optional
     - name: "github"
-      url: "https://github.com/mur1cha"
+      url: "https://github.com/mur1chan"
     - name: "matrix"
       url: "https://matrix.to/#/@mur1chan:sakura.pm"
   ShowBreadCrumbs: true
