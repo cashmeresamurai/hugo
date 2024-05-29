@@ -8,16 +8,33 @@ params:
   profileMode:
     enabled: true
     title: "sakuras blog" # optional default will be site title
-    subtitle: "This is subtitle"
+    # subtitle: "This is subtitle"
     imageUrl: "/profile_pic.png" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
       - name: Matrix Homeserver
         url: "https://matrix.sakura.pm"
-
+      - name: simple weather (wttr.in)
+        url: "https://wttr.sakura.pm"
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/mur1chan/"
     - name: "matrix"
       url: "https://matrix.to/#/@mur1chan:sakura.pm"
+  ShowBreadCrumbs: true
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
