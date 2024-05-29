@@ -1,4 +1,4 @@
-baseURL: https://sakura.pm
+baseURL: sakura.pm
 languageCode: en-us
 title: sakura blog
 theme: ["PaperMod"]
@@ -21,7 +21,7 @@ params:
         url: "https://whoogle.sakura.pm"
   socialIcons: # optional
     - name: "github"
-      url: "https://github.com/mur1chan/"
+      url: "https://github.com/mur1cha"
     - name: "matrix"
       url: "https://matrix.to/#/@mur1chan:sakura.pm"
   ShowBreadCrumbs: true
