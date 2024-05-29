@@ -17,6 +17,8 @@ params:
         url: "https://matrix.sakura.pm"
       - name: simple weather (wttr.in)
         url: "https://wttr.sakura.pm"
+      - name: whoogle
+        url: "https://whoogle.sakura.pm"
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/mur1chan/"
