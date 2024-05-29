@@ -4,28 +4,25 @@ date = 2024-05-29T15:11:45Z
 draft = true
 +++
 
-# Know your developer
+# Know Your Developer
 
-Wie bei einem Know your Customer Verfahren (kurz KYC), gibt es hier ein kurzes Know your developer (KYD)
-Ich möchte hier kurz darauf eingehen, was ich aktuell für ein Techstack verwende und was ich hier in dem Blog hauptsächlich thematisieren möchte.
+Just like there is a "Know Your Customer" procedure (#KYC), I'll give you a brief introduction to my developer background ( #KYD). I'd like to briefly share what tech stack I'm currently using and what themes I'll be covering in this blog.
 
-## About me
+## About Me
 
-Ich bin 23 Jahre alt und studiere aktuell in Hamburg Computer Science mit Nebenschwerpunkt Digitale Forensik/Cyber Security.
-Ich war schon von klein auf immer technisch versiert, jedoch kam das Interesse an der Informatik erst durch das Studium.
-Das Themenfeld, was mich aber die ganze Zeit begleitet hat, war schon immer die Automatisierung.
-Ich fande es immer sehr spannend wie man alltägliche routine Aufgaben so optimieren kann, dass sie komplett von alleine stattfinden können. Am besten noch Parallel.
+I'm 23 years old and studying Computer Science with a focus on Digital Forensics/Cyber Security in Hamburg. From a young age, I was always technically inclined, but my interest in computer science only developed during my studies. The theme that has accompanied me throughout the years is automation.
+I've always found it fascinating to optimize routine tasks so they can be performed entirely independently - and preferably simultaneously.
 
 ## Tech Stack
 
-Ich programmiere meine Projekte hauptsächlich in Rust und Python. Für Frontend nutze ich aktuell Tauri als Frontend mit Vanilla Javascript/Typescript, HTML und PicoCSS.
+I mainly write code for my projects using Rust and Python. For frontend development, I currently use Tauri with Vanilla JavaScript/TypeScript, HTML, and PicoCSS.
 
-## Deployment und Hosting
+## Deployment and Hosting
 
-Deployment und Hosting tue ich es meist selbst durch auf gemietete Linux VPS und Docker.
-Das hat den Vorteil, dass ich Kosten sparen kann, direkten Zugriff auf die Maschine habe, falls intensivere Änderungen nötig sind und ich lerne dabei über die verschiedensten Projekte von Aufsetzung bis zur Bereitstellung
+I usually handle deployment and hosting myself by renting a Linux VPS and using Docker.
+This has the advantages of saving me costs, allowing me direct access to the machine if intense changes are needed, and learning from various projects - from setup to deployment.
 
-## Programmierumgebung
+## Programming Environment
 
-Ich programmiere am Liebsten auf Linux. Im Endeffekt kann man überall programmieren, aber mir persönlich gefällt die Nutzung des Terminals dort am Besten.
-Wenn für die Entwicklung Windows benötigt wird, nutze ich meist die Developer Version von Windows 11 in einer virtuellen Maschine (wird direkt von Microsoft bereitgestellt)
+My preferred programming environment is Linux. While you can program anywhere, I personally like working with terminals best.
+If Windows is required for development, I usually use the Developer Edition of Windows 11 in a virtual machine (which is provided directly by Microsoft).
