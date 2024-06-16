@@ -1,4 +1,4 @@
-baseURL: sakura.pm
+baseURL: https://sakura.pm
 languageCode: en-us
 title: sakura blog
 theme: ["PaperMod"]

@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>https://sakura.pm/blog/</loc>
     <lastmod>2024-06-16T17:19:59+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/interactive_websites_without_javascript/</loc>
+    <loc>https://sakura.pm/blog/interactive_websites_without_javascript/</loc>
     <lastmod>2024-06-16T17:19:59+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>https://sakura.pm/</loc>
     <lastmod>2024-06-16T17:19:59+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/know_your_dev/</loc>
+    <loc>https://sakura.pm/blog/know_your_dev/</loc>
     <lastmod>2024-05-29T15:11:45+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>https://sakura.pm/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>https://sakura.pm/tags/</loc>
   </url>
 </urlset>
