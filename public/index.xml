@@ -2,23 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sakura blog</title>
-    <link>sakura.pm/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on sakura blog</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
-    <atom:link href="sakura.pm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jun 2024 17:19:59 +0200</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>sakura.pm/blog/hello_world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>sakura.pm/blog/hello_world/</guid>
-      <description>HELLO WORLD </description>
+      <title>Interactive websites without javascript</title>
+      <link>//localhost:1313/blog/interactive_websites_without_javascript/</link>
+      <pubDate>Sun, 16 Jun 2024 17:19:59 +0200</pubDate>
+      <guid>//localhost:1313/blog/interactive_websites_without_javascript/</guid>
+      <description>What is &amp;ldquo;hypermedia-driven&amp;rdquo;? &amp;ldquo;Hypermedia-driven&amp;rdquo; refers to the traditional way of serving only HTML to the client. The advantage is that it&amp;rsquo;s lighter weight than JavaScript, and any significant changes are handled by the server instead of the client.
+What&amp;rsquo;s the benefit to me as a developer? It&amp;rsquo;s very easy to use. You can set up &amp;ldquo;templates&amp;rdquo; instead of using JavaScript for the rendering part. Templates are predefined elements in HTML, such as headings, navigation bars, lists, tables, buttons, etc.</description>
+    </item>
+    <item>
+      <title>Know your developer (KYD)</title>
+      <link>//localhost:1313/blog/know_your_dev/</link>
+      <pubDate>Wed, 29 May 2024 15:11:45 +0000</pubDate>
+      <guid>//localhost:1313/blog/know_your_dev/</guid>
+      <description>Know Your Developer Just like there is a &amp;ldquo;Know Your Customer&amp;rdquo; procedure (#KYC), I&amp;rsquo;ll give you a brief introduction to my developer background ( #KYD). I&amp;rsquo;d like to briefly share what tech stack I&amp;rsquo;m currently using and what themes I&amp;rsquo;ll be covering in this blog.
+About Me I&amp;rsquo;m 23 years old and studying Computer Science with a focus on Digital Forensics/Cyber Security in Hamburg. From a young age, I was always technically inclined, but my interest in computer science only developed during my studies.</description>
     </item>
     <item>
       <title>Categories</title>
-      <link>sakura.pm/categories/</link>
+      <link>//localhost:1313/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>sakura.pm/categories/</guid>
+      <guid>//localhost:1313/categories/</guid>
       <description>categories</description>
     </item>
   </channel>

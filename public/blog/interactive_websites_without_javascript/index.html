@@ -5,11 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Tags | sakura blog</title>
+<title>Interactive websites without javascript | sakura blog</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="What is &ldquo;hypermedia-driven&rdquo;? &ldquo;Hypermedia-driven&rdquo; refers to the traditional way of serving only HTML to the client. The advantage is that it&rsquo;s lighter weight than JavaScript, and any significant changes are handled by the server instead of the client.
+What&rsquo;s the benefit to me as a developer? It&rsquo;s very easy to use. You can set up &ldquo;templates&rdquo; instead of using JavaScript for the rendering part. Templates are predefined elements in HTML, such as headings, navigation bars, lists, tables, buttons, etc.">
 <meta name="author" content="">
-<link rel="canonical" href="//localhost:1313/tags/">
+<link rel="canonical" href="//localhost:1313/blog/interactive_websites_without_javascript/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
@@ -18,8 +19,7 @@
 <link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/index.xml">
-<link rel="alternate" hreflang="en" href="//localhost:1313/tags/">
+<link rel="alternate" hreflang="en" href="//localhost:1313/blog/interactive_websites_without_javascript/">
 <noscript>
     <style>
         #theme-toggle,
@@ -31,7 +31,7 @@
 </noscript>
 </head>
 
-<body class="list dark" id="top">
+<body class=" dark" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
@@ -76,12 +76,58 @@
     </nav>
 </header>
 <main class="main">
-<header class="page-header">
-    <h1>Tags</h1>
-</header>
 
-<ul class="terms-tags">
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/blog/">Blogs</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Interactive websites without javascript
+    </h1>
+    <div class="post-meta"><span title='2024-06-16 17:19:59 +0200 CEST'>June 16, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="what-is-hypermedia-driven">What is &ldquo;hypermedia-driven&rdquo;?<a hidden class="anchor" aria-hidden="true" href="#what-is-hypermedia-driven">#</a></h3>
+<p>&ldquo;Hypermedia-driven&rdquo; refers to the traditional way of serving only HTML to the client.
+The advantage is that it&rsquo;s lighter weight than JavaScript, and any significant changes are handled by the server instead of the client.</p>
+<h2 id="whats-the-benefit-to-me-as-a-developer">What&rsquo;s the benefit to <em>me</em> as a developer?<a hidden class="anchor" aria-hidden="true" href="#whats-the-benefit-to-me-as-a-developer">#</a></h2>
+<ul>
+<li>It&rsquo;s very easy to use.</li>
+<li>You can set up &ldquo;templates&rdquo; instead of using JavaScript for the rendering part.</li>
+<li>Templates are predefined elements in HTML, such as headings, navigation bars, lists, tables, buttons, etc.</li>
+<li>You can then take any elements you want, assemble them  and send them to the client.</li>
+<li>You can focus  on the server part, rather than learning and configuring the front-end in a whole other language.</li>
 </ul>
+<p>There&rsquo;s one more small drawback, but it has an easy solution: Server-side rendering can&rsquo;t serve dynamic content. This was a common problem solved by <strong>HTMX</strong>.</p>
+<h3 id="htmx">HTMX<a hidden class="anchor" aria-hidden="true" href="#htmx">#</a></h3>
+<p>HTMX is a JavaScript library that allows developers to replace only parts of a website without reloading the site.
+Furthermore, it allows users to manipulate any class in the HTML, not just forms and hrefs.</p>
+<h3 id="tailwind-css">Tailwind CSS<a hidden class="anchor" aria-hidden="true" href="#tailwind-css">#</a></h3>
+<p>Now for styles. There are many CSS frameworks available, such as Tailwind CSS.
+The advantage of Tailwind CSS is that it allows you to style  elements in HTML.
+When you launch Tailwind CSS, it will automatically generate the CSS for you and remove unnecessary classes from the HTML  if necessary.</p>
+<h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>This &ldquo;stack&rdquo; makes it extremely easy to code and deliver interactive, great looking websites, even if you have no idea how JavaScript works.
+I myself have used it in a university software project, with Python Fast API on the backend and HTMX, Tailwind CSS and Daisy UI on the frontend, with good results.</p>
+<blockquote>
+<p>https: //openscience.sakura.pm</p>
+</blockquote>
+<h4 id="references"><em>References</em><a hidden class="anchor" aria-hidden="true" href="#references">#</a></h4>
+<blockquote>
+<p><a href="https://htmx.org">https://htmx.org</a>,
+<a href="https://hypermedia.systems">https://hypermedia.systems</a>
+<a href="https://tailwindcss.com">https://tailwindcss.com</a>
+<a href="https://daisyui.com">https://daisyui.com</a></p>
+</blockquote>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

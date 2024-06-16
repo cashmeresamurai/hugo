@@ -1,7 +1,7 @@
 +++
 title = 'Know your developer (KYD)'
 date = 2024-05-29T15:11:45Z
-draft = true
+draft = false 
 +++
 
 # Know Your Developer
